@@ -1,4 +1,9 @@
 /* Creates mapsize*/
 #map {
-    height: 1000px;
+    height: 1250px;
+}
+
+body {
+    background-color: steelblue;
+    color:azure;
 }
