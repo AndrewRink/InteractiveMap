@@ -104,10 +104,11 @@ window.onload = async () => {
 // business submit button
 document.getElementById('goButton').addEventListener('click', async (event) => {
 	event.preventDefault()
-	let business = document.getElementById('business').value
+	let business = document.getElementById('businesses').value
 	let data = await foursquare(business)
 	myMap.businesses = processBusinesses(data)
 	myMap.addMarkers()
+    console.log(data)
 })
 
 
